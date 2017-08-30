@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-safe",
+  "version": "1.0.0",
+  "description": "Safe environment specific eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexindigo/eslint-config-safe.git"
+  },
+  "keywords": [
+    "safe",
+    "eslint",
+    "react",
+    "config",
+    "jsx",
+    "es6",
+    "jest",
+    "node",
+    "browser",
+    "tests"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.16.1",
+    "eslint-plugin-flowtype": "^2.21.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.0.0 || ^3.0.0 || ^4.0.0",
+    "eslint-plugin-react": "^6.4.1"
+  }
+}
