@@ -56,5 +56,5 @@ If you want to use this ESLint configuration in a project not built with Create-
 First, install this package, ESLint and the necessary plugins.
 
 ```
-npm install --save-dev eslint-config-safe babel-eslint@7 eslint@3 eslint-plugin-flowtype@2 eslint-plugin-import@2 eslint-plugin-jsx-a11y@4 eslint-plugin-react@6
+npm install --save-dev eslint-config-safe@latest babel-eslint@^8 eslint@^4 eslint-plugin-flowtype@^2 eslint-plugin-import@^2 eslint-plugin-jsx-a11y@^6 eslint-plugin-react@^7
 ```
