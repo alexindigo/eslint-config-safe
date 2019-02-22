@@ -30,6 +30,9 @@ module.exports = {
   },
 
   'settings': {
+    'react': {
+      version: '16'
+    },
     'import/ignore': [
       'node_modules'
     ],

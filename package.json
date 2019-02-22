@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-safe",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Safe environment specific eslint configuration",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check *.js",
-    "lint": "eslint --report-unused-disable-directives .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --report-unused-disable-directives ."
   },
   "pre-commit": [
     "lint"
@@ -30,19 +29,17 @@
   "author": "Alex Indigo <iam@alexindigo.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-restricted-globals": "^0.1.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.2.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-restricted-globals": "^0.2.0"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
-    "install-peers": "^1.0.2",
     "pre-commit": "^1.2.2"
-  },
-  "peerDependencies": {
-    "babel-eslint": "^8.0.3",
-    "eslint": "^4.13.1",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1"
   }
 }

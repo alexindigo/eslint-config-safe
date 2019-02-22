@@ -8,8 +8,6 @@ npm install --save-dev eslint-config-safe
 
 ## Usage
 
-### With Create-React-App
-
 Create `.eslintrc` file with
 
 ```json
@@ -47,14 +45,4 @@ Put `.eslintrc` file into your `tests` folder
     "custom": ["rules", "per", "project", "or", "environment"]
   }
 }
-```
-
-## For projects not based on Create-React-App
-
-If you want to use this ESLint configuration in a project not built with Create-React-App, you can install it with following steps.
-
-First, install this package, ESLint and the necessary plugins.
-
-```
-npm install --save-dev eslint-config-safe@latest babel-eslint@^8 eslint@^4 eslint-plugin-flowtype@^2 eslint-plugin-import@^2 eslint-plugin-jsx-a11y@^6 eslint-plugin-react@^7
 ```
